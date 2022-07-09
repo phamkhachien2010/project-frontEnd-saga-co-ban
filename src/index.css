@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header_ul li {
+    margin: 0 50px;
+}
+
+.header_ul li a {
+    color: white;
+}
+
+.header_ul li:hover a {
+    color: rgb(32, 139, 32);
+}
